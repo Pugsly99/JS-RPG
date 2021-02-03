@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'tdd-template',
+      title: 'js-rpg',
       template: './src/index.html',
       inject: 'body'
     })
